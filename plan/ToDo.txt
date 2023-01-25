@@ -1,0 +1,20 @@
+* Upgrade tower 
+* Tower hinnat näkyviin
+* Neljäs ja viides kartta ja menun päivitys niihin DONE
+* Level select vaikeustaso näkyviin DONE
+* Vihollisten balance DONE
+* Yleinen pelin optimointi DONE
+
+* Pommin räjähdys texture DONE
+* Upgraded cat texturet DONE
+* Loput Äänitehosteet DONE
+* TieTexture DONE
+* Talo silleen et peittää kans ku rotta haihtuu vikas ruudus DONE
+
+
+* Korjaa enemy speed DONE
+* Freeze gun tehokkaammaksi DONE
+
+* Lisää waveja DONE
+
+* Dokumentaatio Melkein DONE

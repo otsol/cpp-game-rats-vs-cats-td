@@ -1,0 +1,14 @@
+main.cpp
+-small file that loads the game resources and launches the game
+
+Game.cpp, Game.hpp
+-Game-class
+-loads the game
+-game run loop
+-calls functions to update game elements and to render the scene
+
+Scene.cpp and Scene.hpp
+-Scene-class
+-contains everything to render
+subclasses MapScene, MenuScene, MapSelectScene, etc.
+-

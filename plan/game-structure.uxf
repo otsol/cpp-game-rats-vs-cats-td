@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <help_text>Space for diagram notes</help_text>
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1430</x>
+      <y>900</y>
+      <w>180</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>_class: CatTower_
+--
+Different cats defending their
+home from evil rats</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1430</x>
+      <y>1040</y>
+      <w>210</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>_Cat tower defense game_
+--
+Library: SFML</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1520</x>
+      <y>950</y>
+      <w>30</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1350</x>
+      <y>1320</y>
+      <w>350</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>_class: Map_
+--
+1. Simple maps with only one path (similar to Bloons TD)
+2. More advanced maps with 2 paths, maybe 1 smaller and
+1 larger so that larger enemies cannot use the smaller path
+-Tile-based
+-Textures for tiles (at least for enemy path and other)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1520</x>
+      <y>1090</y>
+      <w>30</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;230.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>940</x>
+      <y>590</y>
+      <w>170</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>_PistolCat_
+--
+-Shoots rats with a gun
+-Projectile: Bullet
+-Reload time: Medium</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1030</x>
+      <y>660</y>
+      <w>220</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;80.0;200.0;80.0;200.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1240</x>
+      <y>660</y>
+      <w>30</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;60.0;10.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1140</x>
+      <y>590</y>
+      <w>180</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>_SuperCat_
+--
+-Shoots lasers out of his eyes
+-Projectile: Laser
+-Reload time: Very fast</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1630</x>
+      <y>1060</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;80.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1710</x>
+      <y>1050</y>
+      <w>240</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>_class: RatEnemy_
+--
+-Incoming rats follow the path in
+the map and try to get to the cats' home
+-HP
+-Speed
+-Texture</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2030</x>
+      <y>950</y>
+      <w>210</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>_BasicRat_
+--
+-HP:Low
+-Speed: Medium
+-Damage to house: Low</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2030</x>
+      <y>1050</y>
+      <w>210</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>_BigRat_
+--
+-HP: Medium
+-Speed: Low
+-Damage to house: Medium</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2030</x>
+      <y>1150</y>
+      <w>210</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>_BossRat_
+--
+-HP: Very high
+-Speed: Very low
+-Spawns basic rats when alive
+-Damage to house: Very high</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1190</x>
+      <y>820</y>
+      <w>210</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>_Tower types_
+--
+-Different towers have different
+projectiles and prices
+-subclasses of CatTower</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1390</x>
+      <y>840</y>
+      <w>80</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;60.0;20.0;60.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1530</x>
+      <y>810</y>
+      <w>210</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>_class: Projectile_
+--
+-Bullets/Bombs etc.
+-Damage
+-Texture</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1490</x>
+      <y>840</y>
+      <w>60</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>40.0;10.0;10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1380</x>
+      <y>670</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>_Bullet_
+--
+Damage: Low
+Splash damage: No</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1700</x>
+      <y>670</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>_Bomb_
+--
+Damage: High
+Splash: Yes</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1900</x>
+      <y>970</y>
+      <w>150</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>130.0;20.0;10.0;20.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1940</x>
+      <y>1070</y>
+      <w>110</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;90.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1900</x>
+      <y>1150</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;40.0;130.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1700</x>
+      <y>730</y>
+      <w>120</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>100.0;10.0;100.0;50.0;10.0;50.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1470</x>
+      <y>730</y>
+      <w>110</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;50.0;90.0;50.0;90.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>700</x>
+      <y>590</y>
+      <w>210</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>_ClawCat_
+--
+-Uses claws to hit rats
+-Range: Very short
+-Damage: Medium</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>810</x>
+      <y>660</y>
+      <w>420</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;130.0;400.0;130.0;400.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1540</x>
+      <y>570</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>_Laser_
+--
+Damage: Medium
+Splash damage: No</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1630</x>
+      <y>630</y>
+      <w>30</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1350</x>
+      <y>1060</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;80.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1150</x>
+      <y>1040</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>_class: House_
+--
+-Hitpoints, different enemies take
+different amounts of hitpoints away</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1260</x>
+      <y>1090</y>
+      <w>230</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>
+</panel_attributes>
+    <additional_attributes>210.0;10.0;210.0;150.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1060</x>
+      <y>1200</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>_class: Scores_
+--
+-Store highscores per map</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1580</x>
+      <y>1090</y>
+      <w>120</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0;100.0;90.0;100.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1620</x>
+      <y>1190</y>
+      <w>210</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>_class: Audio_
+--
+-Rats make noises when moving
+and upon their deaths
+-Cats make noise when attacking</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1030</x>
+      <y>970</y>
+      <w>420</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;70.0;10.0;70.0;40.0;400.0;40.0;400.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>830</x>
+      <y>950</y>
+      <w>210</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>_class: UserInterface_
+--
+-Buy and sell towers and traps
+-Start next enemy wave</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>810</x>
+      <y>1120</y>
+      <w>210</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>_class: Menu_
+--
+-Start a Game and select a map
+-See high score list</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1010</x>
+      <y>1090</y>
+      <w>460</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>
+</panel_attributes>
+    <additional_attributes>440.0;10.0;440.0;70.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1660</x>
+      <y>930</y>
+      <w>210</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>_class: GameState_
+--
+-Amount of lives left
+-Amount of money_
+-Current round</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1620</x>
+      <y>970</y>
+      <w>60</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>40.0;10.0;10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+</diagram>
